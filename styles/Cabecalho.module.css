@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2? family= Lato & family= Montserrat:wght@500 & family= Roboto:wght@300;400 & family= Rubik:ital@0; 1 & família= Ubuntu:ital@0;1 & display=swap');
+
+@font-face {
+    font-family: 'Lato', sans-serif;
+    src: url('https: //fonts.googleapis.com/css2?family= Lato & family= Montserrat :wght@500 & family= Roboto:wght@300;400 & family= Rubik:ital@0;1 & family= Ubuntu:ital@0; 1 & display=swap" rel="stylesheet"');
+}
+@font-face {
+    font-family: 'Montserrat', sans-serif;
+    src: url('https: //fonts.googleapis.com/css2?family= Lato & family= Montserrat :wght@500 & family= Roboto:wght@300;400 & family= Rubik:ital@0;1 & family= Ubuntu:ital@0; 1 & display=swap" rel="stylesheet"');
+}
+@font-face {
+    font-family: 'Roboto', sans-serif;
+    src: url('https: //fonts.googleapis.com/css2?family= Lato & family= Montserrat :wght@500 & family= Roboto:wght@300;400 & family= Rubik:ital@0;1 & family= Ubuntu:ital@0; 1 & display=swap" rel="stylesheet"');
+}
+@font-face {
+    font-family: 'Rubik', sans-serif;
+    src: url('https: //fonts.googleapis.com/css2?family= Lato & family= Montserrat :wght@500 & family= Roboto:wght@300;400 & family= Rubik:ital@0;1 & family= Ubuntu:ital@0; 1 & display=swap" rel="stylesheet"');
+}
+@font-face {
+    font-family: 'Ubuntu', sans-serif;
+    src: url('https: //fonts.googleapis.com/css2?family= Lato & family= Montserrat :wght@500 & family= Roboto:wght@300;400 & family= Rubik:ital@0;1 & family= Ubuntu:ital@0; 1 & display=swap" rel="stylesheet"');
+}
+
+.logo {
+    margin-bottom: 0.3rem;
+    margin-left: -6rem;
+    margin-right: 0rem;
+    width: 3.5rem;
+}
+
+.container1 {
+    background-image: url('../img-vet/dogs.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.navbar {
+    background-color: #dadada;
+}
+
+.text {
+    font-family: 'Roboto', sans-serif;
+    color: #3d1a1a;
+    font-size: 43.5px;
+    font-weight: 400;
+    text-shadow: 3px 5px 7px #856c6c;
+    font-stretch: expanded;
+}
+
+.col{
+    text-align: justify;
+    margin-right: -400vh;
+    font-family: 'Roboto', sans-serif;
+    color: #3d1a1a;
+    font-size: 20px;
+    font-weight: 500;
+    text-shadow: 3px 5px 7px #856c6c;
+    font-stretch: expanded;
+}
+
+.col h3{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 25.5px;
+    text-shadow: 3px 5px 7px #856c6c;
+    font-stretch: expanded;
+}
+
+
+
