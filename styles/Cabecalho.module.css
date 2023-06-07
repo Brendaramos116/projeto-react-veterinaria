@@ -4,18 +4,22 @@
     font-family: 'Lato', sans-serif;
     src: url('https: //fonts.googleapis.com/css2?family= Lato & family= Montserrat :wght@500 & family= Roboto:wght@300;400 & family= Rubik:ital@0;1 & family= Ubuntu:ital@0; 1 & display=swap" rel="stylesheet"');
 }
+
 @font-face {
     font-family: 'Montserrat', sans-serif;
     src: url('https: //fonts.googleapis.com/css2?family= Lato & family= Montserrat :wght@500 & family= Roboto:wght@300;400 & family= Rubik:ital@0;1 & family= Ubuntu:ital@0; 1 & display=swap" rel="stylesheet"');
 }
+
 @font-face {
     font-family: 'Roboto', sans-serif;
     src: url('https: //fonts.googleapis.com/css2?family= Lato & family= Montserrat :wght@500 & family= Roboto:wght@300;400 & family= Rubik:ital@0;1 & family= Ubuntu:ital@0; 1 & display=swap" rel="stylesheet"');
 }
+
 @font-face {
     font-family: 'Rubik', sans-serif;
     src: url('https: //fonts.googleapis.com/css2?family= Lato & family= Montserrat :wght@500 & family= Roboto:wght@300;400 & family= Rubik:ital@0;1 & family= Ubuntu:ital@0; 1 & display=swap" rel="stylesheet"');
 }
+
 @font-face {
     font-family: 'Ubuntu', sans-serif;
     src: url('https: //fonts.googleapis.com/css2?family= Lato & family= Montserrat :wght@500 & family= Roboto:wght@300;400 & family= Rubik:ital@0;1 & family= Ubuntu:ital@0; 1 & display=swap" rel="stylesheet"');
@@ -49,18 +53,20 @@
     font-stretch: expanded;
 }
 
-.col{
-    text-align: justify;
-    margin-right: -400vh;
+.col {
+
+    text-align: end;
+    margin-left: 20%;
     font-family: 'Roboto', sans-serif;
     color: #3d1a1a;
     font-size: 20px;
     font-weight: 500;
-    text-shadow: 3px 5px 7px #856c6c;
+    text-shadow: 3px 5px 7px #694d4d;
     font-stretch: expanded;
 }
 
-.col h3{
+.h3 {
+    text-align: end;
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
     font-size: 25.5px;

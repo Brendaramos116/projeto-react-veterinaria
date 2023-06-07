@@ -7,31 +7,33 @@ import { LuDog } from 'react-icons/lu'
 import { FaShower } from 'react-icons/fa'
 import { HiScissors } from 'react-icons/hi'
 import { AiOutlineShop } from 'react-icons/ai'
+import Link from 'next/link';
 const index = () => {
   return (
     <>
 
       <Pagina>
         <Row md={2}>
-          <Col className={styles.text}>
-            <p>Nosso compromisso <br></br>
+          <Col >
+            <p className={styles.text}>Nosso compromisso <br></br>
               é cuidar com muito amor do seu pet.
             </p>
           </Col>
-          <Col className={styles.col}>
-            <h3>Serviços</h3>
-            <ListGroup className='bg-transparent'>
-              <ListGroupItem className='bg-transparent'><LuDog /> Clínica Veterinária</ListGroupItem>
-              <ListGroupItem className='bg-transparent'><FaShower /> Banho</ListGroupItem>
-              <ListGroupItem className='bg-transparent'><HiScissors /> Tosa</ListGroupItem>
-              <ListGroupItem className='bg-transparent'><FaShower /><HiScissors /> Banho e Tosa</ListGroupItem>
-              <ListGroupItem className='bg-transparent'><AiOutlineShop /> PetShop</ListGroupItem>
-            </ListGroup>
+          <Col>
+            <h3 className={styles.h3}>Serviços</h3>
+            <ul className={styles.col}>              
+              <Link href={'/#'} className='btn btn-light ms-2'><li className={'bg-transparent list-group-item'}> Clínica Veterinária <LuDog/></li> </Link><br></br>
+              <Link href={'/#'} className='btn btn-light ms-2'><li className={'bg-transparent list-group-item'}> Banho <FaShower/></li> </Link><br></br>
+              <Link href={'/#'} className='btn btn-light ms-2'><li className={'bg-transparent list-group-item'}> Tosa <HiScissors/></li> </Link><br></br>
+              <Link href={'/#'} className='btn btn-light ms-2'><li className={'bg-transparent list-group-item'}> Banho e Tosa <FaShower/><HiScissors/></li> </Link><br></br>
+              <Link href={'/#'} className='btn btn-light ms-2'><li className={'bg-transparent list-group-item'}> PetShop <AiOutlineShop/></li> </Link><br></br>
+            </ul>
           </Col>
         </Row>
       </Pagina>
     </>
   )
+
 }
 
 export default index
