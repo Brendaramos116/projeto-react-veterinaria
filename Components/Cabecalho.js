@@ -16,19 +16,13 @@ const Cabecalho = () => {
                         <Navbar.Brand>| AMOR DE 4 PATAS</Navbar.Brand>
                     </div>
                     <Nav className="me-3">
-                        <Nav.Link href="#home">Home</Nav.Link>
-                        <Nav.Link href="#features">Features</Nav.Link>
-                        <Nav.Link href="#pricing">Pricing</Nav.Link>
-
-                        <Form className="d-flex">
-                            <Form.Control
-                                type="search"
-                                placeholder="Search"
-                                className="me-1"
-                                aria-label="Search"
-                            />                        
-                            <Button variant="outline-success">Search</Button>
-                        </Form>
+                        <Nav.Link href="../pages/veterinaria">Home</Nav.Link>
+                        <Nav.Link href="../pages/clinica">Clínica Veterinária</Nav.Link>
+                        <Nav.Link href="../pages/petshop">Pet Shop</Nav.Link>
+                        <Nav.Link href="../pages/banho">Banho</Nav.Link>
+                        <Nav.Link href="../pages/banho">Tosa</Nav.Link>
+                        <Nav.Link href="../pages/funcionarios">Funcionários</Nav.Link>
+                        <Nav.Link href="../pages/clientes">Clientes</Nav.Link>
                     </Nav>
                 </Container>
             </Navbar >

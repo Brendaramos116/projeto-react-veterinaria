@@ -9,17 +9,20 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "auth": "^0.0.9",
     "axios": "^1.4.0",
     "bootstrap": "^5.3.0",
-    "firebase": "^9.22.1",
+    "firebase": "^9.23.0",
     "install": "^0.13.0",
     "next": "13.4.4",
     "npm": "^9.6.7",
     "react": "18.2.0",
     "react-bootstrap": "^2.7.4",
     "react-dom": "18.2.0",
-    "react-icons": "^4.9.0",
+    "react-hook-form": "^7.45.0",
+    "react-icons": "^4.10.1",
     "react-router-dom": "^6.11.2",
+    "remask": "^1.2.2",
     "styled": "^1.0.0",
     "uuid": "^9.0.0"
   }
